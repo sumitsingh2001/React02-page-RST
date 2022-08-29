@@ -24,11 +24,11 @@ const Navbar = () => {
           <li className='p__opensans'><a href='#about'>About</a></li>
           <li className='p__opensans'><a href='#menu'>Menu</a></li>
           <li className='p__opensans'><a href='#awards'>Awards</a></li>
-          <li className='p__opensans'><a href='#contacts'>Contacts</a></li>
+          <li className='p__opensans'><a href='#contacts'>Contact</a></li>
         </ul>
 
         <div className="app__navbar-login">
-          <a href="#login" className='p__opensans'>Login / Registration</a>
+          <a href="#login" className='p__opensans'>Log in / Registration</a>
           <div />
           <a href="/" className='p__opensans'> Book Table</a>
         </div>
@@ -45,7 +45,7 @@ const Navbar = () => {
                 <li className='p__opensans'><a href='#about' onClick={() => setToggleMenu(false)} >About</a></li>
                 <li className='p__opensans'><a href='#menu' onClick={() => setToggleMenu(false)} >Menu</a></li>
                 <li className='p__opensans'><a href='#awards' onClick={() => setToggleMenu(false)} >Awards</a></li>
-                <li className='p__opensans'><a href='#contacts' onClick={() => setToggleMenu(false)} >Contacts</a></li>
+                <li className='p__opensans'><a href='#contacts' onClick={() => setToggleMenu(false)} >Contact</a></li>
               </ul>
             </div>
           )}
